@@ -1,19 +1,151 @@
 :root {
-    --santa-red: #A31123;
-    --santa-red-alpha: rgba(163, 17, 34, 0.4);
-    --santa-green: #0A9F99;
+    --santa-red: rgb(214, 47, 47);
+    --santa-red-alpha: rgba(214, 47, 47, 0.507);
+    --santa-green: rgb(0, 204, 153);
 }
 
 .container-fluid {
-    padding: 0;
+    padding: 0%;
 }
 
 .row {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    margin-bottom: 2rem;
+    padding: 0%;
+}
+
+a {
+    color: snow;
 }
 
 #title {
     background-color: var(--santa-red);
+    padding: 2rem 10rem;
+    color: snow;
 }
 
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.navbar-brand:hover {
+    color: var(--santa-green);
+}
+
+.nav-item {
+    padding: 0.1rem;
+}
+
+.nav-link:hover {
+    color: var(--santa-green);
+}
+
+.nav-line {
+    font-size: 1.2rem;
+}
+
+.title-image {
+    width: 55%;
+    float: right;
+    margin: 0 20px;
+    transform: rotate(10deg);
+}
+
+.donwload-btn {
+    margin: 10%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: snow;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: "Montserrat";
+}
+
+.feature-box p {
+    color: var(--santa-red-alpha);
+}
+
+.feature-box i {
+    font-size: 3rem;
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+
+.feature-box i:hover {
+    transition-duration: 0.3s;
+    color: var(--santa-green);
+}
+
+#testimonials {
+    background-color: var(--santa-red);
+    color: snow;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.carousel-item {
+    padding: 7rem;
+}
+
+#social-container {
+    background-color: var(--santa-red);
+    color: snow;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social span {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.social-icons a:hover {
+    color: var(--santa-green);
+}
+
+.social i {
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+@media (max-width: 956px){
+    #title {
+        padding: 0%;
+        text-align: center;
+    }
+}
